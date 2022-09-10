@@ -1,0 +1,10 @@
+#Write Python code of a program that finds the number of hours, minutes, seconds in a given number of seconds. 
+#Input: 10000 Hours 
+#Output: 2 Hours 46 minutes, 40 seconds
+
+num = int(input("Enter the number = "))
+hour = num//3600
+hour1 = num%3600
+minute = hour1//60
+second = hour1%60
+print(hour,"hours", minute,"minutes", second,'seconds')
